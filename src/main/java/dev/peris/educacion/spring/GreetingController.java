@@ -14,7 +14,7 @@ public class GreetingController {
 
     private static final String TEMPLATE = "Hello, %s!";
 
-    @RequestMapping("/greeting")
+    @RequestMapping("/")
     public HttpEntity<Greeting> greeting(
             @RequestParam(value = "name", required = false, defaultValue = "World") String name) {
 
