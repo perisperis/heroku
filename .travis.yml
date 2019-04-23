@@ -8,3 +8,12 @@ jdk:
 branches:
   only:
   - release
+deploy:
+  provider: heroku
+  api-key: 
+    secure: $HEROKU_API_KEY
+  skip-cleanup: true
+  keep-history: true
+  app: perisperis
+  on:
+    branch: release
