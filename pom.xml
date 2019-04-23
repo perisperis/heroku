@@ -13,7 +13,7 @@
 	<groupId>dev.peris</groupId>
 	<artifactId>heroku</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>heroku</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -55,6 +55,16 @@
             <scope>test</scope>
         </dependency>
         
+        <!-- jstl e jsp -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+	</dependency>
+
 	</dependencies>
 
 	<build>
