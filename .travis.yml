@@ -1,0 +1,8 @@
+language: java
+sudo: false # faster builds
+script: "mvn clean install"
+jdk:
+  - openjdk8
+branches:
+  only:
+  - release
