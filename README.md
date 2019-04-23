@@ -1,2 +1,2 @@
 # heroku
-Projecto desplagado en heroku
+Projecto desplegado en heroku
